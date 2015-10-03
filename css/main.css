@@ -1,0 +1,139 @@
+/** {
+  outline: red 1px solid;
+} */
+
+body {
+	background-color: #e3e6e8;
+	margin: 0;
+}
+
+.masthead {
+	background-color: #cec8c6;
+}
+
+.masthead .heading {
+	padding: 0.5em;
+	margin: 0 auto;
+	width: 800px;
+	text-align: center;
+	height: 1.25em;
+}
+
+.masthead .heading {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 4em;
+}
+
+.orange {
+	color: #ff5000;
+}
+
+.gray {
+	color: #6b6562;
+}
+
+.notepad {
+	margin: 0 auto;
+	width: 360px;
+	height: 580px;
+	background-color: #cec8c6;
+	border-radius: 10px;
+}
+
+.notepad h1 {	
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #ff5000;
+	font-size: 2em;
+	padding-top: 8px;
+	padding-left: 18px;
+}
+
+.notepad p {
+	border-bottom: #6b6562 1px solid;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1em;
+	color: #6b6562;
+	margin-top: -25px;
+	padding-left: 18px;
+	padding-bottom: 4px;
+}
+
+.add-item-callout {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #6b6562;
+	margin-top: 28px;
+	margin-bottom: 8px;
+	padding-left: 28px;	
+}
+
+#item-input {
+	margin-left: 26px;
+	padding: 6px;
+	width: 292px;
+	border-radius: 10px;
+	font: 'Open Sans Condensed', sans-serif;
+	font-size: 16px;	
+	color: #6b6562;
+  -webkit-appearance: none; 
+  -moz-appearance: none; 	
+}
+
+#add-button,
+#clear-button {
+	margin-left: 25px;
+	padding: 3px;
+	width: 310px;
+	background-color: #ff5000;
+	border-radius: 10px;
+	font: 'Open Sans Condensed', sans-serif;
+	font-size: 16px;	
+	color: white;	
+	cursor: pointer;
+}
+
+#add-button {
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+#item-input:focus,
+#add-button:focus,
+#clear-button:focus {
+   outline: none;
+}
+
+.add-item ul li {
+	list-style: none;
+	padding: 1px;
+	margin-left: -12px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
+	color: #6b6562;	
+	border-bottom: #6b6562 1px solid;
+	width: 304px;
+}
+
+#checkmark {
+  cursor: pointer;
+  margin-top: 5px;
+  float: right;
+  height: 22px;
+  width: 22px;	
+}
+
+#checkmark:hover {
+	color: green;
+}
+
+#remove {
+  cursor: pointer;
+  margin-top: 5px;
+  height: 22px;
+  width: 22px;		
+}
+
+#remove:hover {
+	color: red;
+}
+
+
