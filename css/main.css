@@ -66,6 +66,15 @@ body {
 	padding-left: 28px;	
 }
 
+.error-message {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: red;
+	margin-top: -4px;
+	margin-bottom: 10px;
+	padding-left: 28px;	
+	display: none;	
+}
+
 #item-input {
 	margin-left: 26px;
 	padding: 6px;
@@ -102,7 +111,7 @@ body {
    outline: none;
 }
 
-.add-item ul li {
+.list-area li {
 	list-style: none;
 	padding: 1px;
 	margin-left: -12px;
@@ -111,6 +120,12 @@ body {
 	color: #6b6562;	
 	border-bottom: #6b6562 1px solid;
 	width: 304px;
+}
+
+.check-off {
+	text-decoration: line-through;
+	background-color: #ff5000;
+	border-radius: 10px;
 }
 
 #checkmark {
@@ -135,5 +150,7 @@ body {
 #remove:hover {
 	color: red;
 }
+
+
 
 
