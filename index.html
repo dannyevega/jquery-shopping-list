@@ -2,13 +2,11 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>jQuery Shopping List</title>
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 		<link href='https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-		<script src="http://code.jquery.com/jquery.min.js"></script>
-		<script type="text/javascript" src="js/jquery-ui.min.js"></script>
-		<script type="text/javascript" src="js/script.js"></script>
 	</head>
 	<body>
 
@@ -23,8 +21,10 @@
 			<h2 class="add-item-callout">Add Items To Your List...</h2>
 			<h3 class="error-message">PLEASE ENTER AN ITEM TO ADD TO YOUR LIST.</h3>
 			<div class="item-container">
-				<input id="item-input" type="text" placeholder="shopping item...">
-				<button id="add-button">ADD <i class="fa fa-cart-plus"></i></button><br>
+				<form class="new-item">
+					<input id="item-input" type="text" placeholder="shopping item...">
+					<button id="add-button">ADD <i class="fa fa-cart-plus"></i></button><br>					
+				</form>
 				<button id="clear-button">CLEAR <i class="fa fa-check-circle"></i></button>
 			</div>
 
@@ -32,5 +32,8 @@
 
 		</section>
 
+		<script src="http://code.jquery.com/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
 	</body>
 </html>

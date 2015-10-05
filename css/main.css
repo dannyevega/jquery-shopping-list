@@ -35,9 +35,10 @@ body {
 .notepad {
 	margin: 0 auto;
 	width: 360px;
-	height: 580px;
+	min-height: 580px;
 	background-color: #cec8c6;
 	border-radius: 10px;
+	padding-bottom: 10px;
 }
 
 .notepad h1 {	
@@ -122,10 +123,11 @@ body {
 	width: 304px;
 }
 
-.check-off {
+.list-area .check-off {
 	text-decoration: line-through;
 	background-color: #ff5000;
 	border-radius: 10px;
+	color: white;
 }
 
 #checkmark {
